@@ -1,2 +1,35 @@
 ### Obtener a todos los luchadores
-GET http://localhost:2500/fighter
+GET http://localhost:2500/Fighter
+
+### Obtener a un luchador por su id
+GET http://localhost:2500/Fighter/1
+
+### Obtener a los luchadores por su categoria de peso
+GET http://localhost:2500/Fighter?weight=Welterweight
+
+### Obtener a un luchador por su nombre
+GET http://localhost:2500/Fighter?name=Conor McGregor
+
+### Obtener a un lucador segun su titulo
+GET http://localhost:2500/Fighter?championship=UFC Middleweight Champion
+
+### Crear un luchador
+POST http://localhost:2500/Fighter
+Content-Type: application/json
+
+{
+    "name": "Alex Perera",
+    "nickname": "El Perera",
+    "weight": ["Welterweight"],
+    "record": "10-0",
+    "age": 25,
+    "country": "Cuba",
+    "championship": ["UFC Welterweight Champion"],
+    "champion": true,
+    "plot": "Perera is a Cuban fighter who has proven to be a very complete fighter, with a record of 10-0 and at only 25 years old he has managed to become UFC champion in the welterweight category.",
+    "Poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ufc.com%2Ffighter%2Falex-perera&psig=AOvVaw3"
+
+}
+
+### Eliminar un luchador
+DELETE http://localhost:2500/Fighter/1

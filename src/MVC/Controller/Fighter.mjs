@@ -8,7 +8,7 @@ export class FighterController{
     // Funcion para obtener todos los luchadores
     GetALL = async (req,res) =>{
         try{
-            const {weight,name,champion} = req.query;
+            const {weight,name,championship} = req.query;
             if(weight){
                 
                 const fighters = await this.fighterModel.getByWeight({weight});
@@ -22,9 +22,9 @@ export class FighterController{
                 if(fighter){
                     return res.status(200).json(fighter);
                 }
-            }else if(champion){
+            }else if(championship){
                 
-                const fighters = await this.fighterModel.getChampions({champion});
+                const fighters = await this.fighterModel.getChampions({championship});
                 if(fighters){
                     return res.status(200).json(fighters);
                 }
@@ -55,7 +55,7 @@ export class FighterController{
         try{
             const result = ValidateFighter(req.body);
             if(result.success){
-                const fighter = await this.fighterModel.create({fighter: result.data});
+                const fighter = await this.fighterModel.create({Fighter: result.data});
                 return res.status(201).json(fighter);
             }else{
                 return res.status(400).json(result.error);

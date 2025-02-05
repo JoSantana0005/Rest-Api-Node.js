@@ -2,75 +2,75 @@ import { READJSON } from "../Utils.mjs";
 const Fighters = READJSON("./Fighter.json");
 
 export class FighterModel{
-    // Funcion para obtner todos los luchadores
-    static async getALL(){
+    // Funcion para obtener todos los luchadores
+    static getALL = async () =>{
         return Fighters;
     }
-    // Obtener un luchador por su ID
-    static async getByID({id}){
+
+    // Funcion para obtener un luchador por su id
+    static getByID = async ({id}) =>{
         if(id){
-            return Fighters.find(fighter => fighter.id == parseInt(id));
+            return Fighters.find(
+                Fighter => Fighter.id == parseInt(id))
         }
         return Fighters;
     }
 
-    // Obtener a lucahadores segun su categoria de peso
-    static async getByWeight({weight}){
+    // Funcion para obtener a los lucahadores segun su categoria de peso
+    static getByWeight = async ({weight})=>{
         if(weight){
-            return Fighters.filter(fighter => 
-                fighter.weight.includes(weight)
+            return Fighters.filter(
+                Fighter => Fighter.weight.includes(weight)
             )
         }
         return Fighters;
     }
 
-    // Obtener a los lucahadores que son campeones
-    static async getChampions({champion}){
-        if(champion){
-            return Fighters.filter(fighter => fighter.champion == champion);
+    // Funcion para obtner a los luchadores segun los titulos ganados
+    static getChampions = async ({championship}) =>{
+        if(championship){
+            return Fighters.filter(
+                Fighter => Fighter.championship.includes(championship)
+            )
         }
         return Fighters;
     }
 
-    // Obtener a un luchador por su nombre
-    static async getByName({name}){
+    // Funcion para obtener un luchador por su nombre
+    static getByName = async ({name}) =>{
         if(name){
-            return Fighters.find(fighter => fighter.name.toLowerCase() == name.toLowerCase());
+            return Fighters.find(
+                Fighter => Fighter.name.toLowerCase() == name.toLowerCase()
+            )
         }
         return Fighters;
     }
 
-    // Crear un nuevo luchador
-
-    static async create({fighter}){
-        if(fighter){
-            const newFighter = {
+    // Funcion para crear un nuevo luchador
+    static create = async ({Fighter}) =>{
+        if(Fighter){
+            const NewFighter = {
                 id: Fighters.length + 1,
-                ...fighter
+                ...Fighter
             }
-            Fighters.push(newFighter);
-            return newFighter;
+            Fighters.push(NewFighter);
+            return NewFighter;
         }
         else{
-            return {error: "No se ha enviado un luchador"}
+            return {error: "Error al crear el luchador"};
         }
     }
 
-    // Eliminar a un luchador por su id
-    static async delete({id}){
+    // Funcion para eliminar un luchador
+    static delete = async ({id}) =>{
         if(id){
-            const index = Fighters.findIndex(fighter =>
-                fighter.id == parseInt(id)
-            )
+            const index = Fighters.findIndex(Fighter => Fighter.id == parseInt(id));
             if(index !== -1){
                 Fighters.splice(index,1);
-                return {message: "Luchador eliminado"}
+                return {message: "Luchador eliminado"};
+            }else{
+                return {error: "Luchador no encontrado"};
             }
-            else{
-                return {error: "Luchador no encontrado"}
-            }
-        }else{
-            return {error: "No se ha enviado un id"}
         }
     }
 }

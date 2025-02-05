@@ -14,20 +14,10 @@ export const FighterSchema = zod.object({
         'Lightweight','Welterweight','Middleweight',
         'Semimediumweight','Heavyweight']).array(),
     
-        wins: zod.number({
-            required_error: "Las victorias son requeridas",
-            invalid_type_error: "Las victorias deben ser un numero"
-    }).int().positive(),
-    
-    Losses: zod.number({
-        required_error: "Las derrotas son requeridas",
-        invalid_type_error: "Las derrotas deben ser un numero"
-    }).int().positive(),
-    
-    draws: zod.number({
-        required_error: "Los empates son requeridos",
-        invalid_type_error: "Los empates deben ser un numero"
-    }).int().positive(),
+    record: zod.string({
+        required_error: "El record es requerido",
+        invalid_type_error: "El record debe ser un string"
+    }).nonempty(),
     
     age: zod.number({
         required_error: "La edad es requerida",
@@ -52,8 +42,8 @@ export const FighterSchema = zod.object({
         required_error: "El campeon es requerido",
         invalid_type_error: "El campeon debe ser un booleano"
     }),
-    
-    poster: zod.string({
+
+    Poster: zod.string({
         required_error: "El poster es requerido",
         invalid_type_error: "El poster debe ser un string"
     }).url(),
