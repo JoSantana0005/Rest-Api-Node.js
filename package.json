@@ -1,0 +1,24 @@
+{
+  "name": "rest-api-node",
+  "version": "1.0.0",
+  "description": "Api of UFC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoSantana0005/Rest-Api-Node.js.git"
+  },
+  "author": "Jose Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoSantana0005/Rest-Api-Node.js/issues"
+  },
+  "homepage": "https://github.com/JoSantana0005/Rest-Api-Node.js#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "zod": "^3.24.1"
+  }
+}
