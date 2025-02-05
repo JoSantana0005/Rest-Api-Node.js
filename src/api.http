@@ -1,0 +1,2 @@
+### Obtener a todos los luchadores
+GET http://localhost:2500/fighter

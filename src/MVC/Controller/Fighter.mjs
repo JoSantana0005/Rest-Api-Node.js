@@ -1,4 +1,4 @@
-import { FighterModel } from "../Models/Fighter.mjs";
+
 import { ValidateFighter, ValidateFighterUpdate } from "../Schema.mjs";
 export class FighterController{
     constructor({fighterModel}){
@@ -30,7 +30,7 @@ export class FighterController{
                 }
             }
             
-            const fighters = await this.fighterModel.GetALL();
+            const fighters = await this.fighterModel.getALL();
             return res.status(200).json(fighters);
         }
         catch{
