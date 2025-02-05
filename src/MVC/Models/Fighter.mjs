@@ -36,6 +36,16 @@ export class FighterModel{
         return Fighters;
     }
 
+    // Funcion que obtiene a los luchadores que son campeon
+    static getChampion = async ({champion}) =>{
+        if(champion){
+            const isChampion = champion == "true" ? true : false;
+            return Fighters.filter(
+                Fighter => Fighter.champion == isChampion
+            )
+        }
+        return Fighters;
+    }
     // Funcion para obtener un luchador por su nombre
     static getByName = async ({name}) =>{
         if(name){

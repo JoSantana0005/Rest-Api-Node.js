@@ -12,7 +12,8 @@ GET http://localhost:2500/Fighter?name=Conor McGregor
 
 ### Obtener a un lucador segun su titulo
 GET http://localhost:2500/Fighter?championship=UFC Middleweight Champion
-
+### Obtener a los lucahdores que son campeones
+GET http://localhost:2500/Fighter?champion=true
 ### Crear un luchador
 POST http://localhost:2500/Fighter
 Content-Type: application/json

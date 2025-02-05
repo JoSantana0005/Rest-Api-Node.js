@@ -8,7 +8,7 @@ export class FighterController{
     // Funcion para obtener todos los luchadores
     GetALL = async (req,res) =>{
         try{
-            const {weight,name,championship} = req.query;
+            const {weight,name,championship,champion} = req.query;
             if(weight){
                 
                 const fighters = await this.fighterModel.getByWeight({weight});
@@ -27,6 +27,14 @@ export class FighterController{
                 const fighters = await this.fighterModel.getChampions({championship});
                 if(fighters){
                     return res.status(200).json(fighters);
+                }
+            }else if(champion){
+                const fighters = await this.fighterModel.getChampion({champion});
+                if(fighters){
+                    return res.status(200).json(fighters);
+                }
+                else{
+                    return res.status(404).json({error: "No hay campeones"});
                 }
             }
             
