@@ -24,6 +24,14 @@ export class FighterModel{
         return Fighters;
     }
 
+    // Obtener a los lucahadores que son campeones
+    static async getChampions({champion}){
+        if(champion){
+            return Fighters.filter(fighter => fighter.champion == champion);
+        }
+        return Fighters;
+    }
+
     // Obtener a un luchador por su nombre
     static async getByName({name}){
         if(name){
