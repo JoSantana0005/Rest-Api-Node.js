@@ -6,3 +6,4 @@ export const FighterRoute = route;
 
 // GET
 FighterRoute.get('/',FighterController);
+FighterRoute.get('/:id',FighterController);
