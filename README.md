@@ -5,10 +5,10 @@ The Ultimate Fighting Championship (UFC) is an American mixed martial arts compa
   <td align="Justify" width=50%>
      In this rest-api what we will do is we can consult the information of the fighters, championships won, Titles, fighter of the year, etc., using node.js, css, html and javascript
     <div align="Center">
-      <img src="https://i.ibb.co/tL1v6Jt/html-5.png" witdh="50px" height="50px">
-      <img src="https://i.ibb.co/j86Drxg/css-3.png" width= "50px" height="50px">
-      <img src="https://i.ibb.co/pKKrwn3/javascript-js-icon-2048x2048-nyxvtvk0.png" width="50px" height="50px">
-      <img src="https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon-thumbnail.png" width="50px" height="50px">
+      <img src="https://i.ibb.co/tL1v6Jt/html-5.png" witdh="120px" height="120px">
+      <img src="https://i.ibb.co/j86Drxg/css-3.png" width= "120px" height="120px">
+      <img src="https://i.ibb.co/pKKrwn3/javascript-js-icon-2048x2048-nyxvtvk0.png" width="120px" height="120px">
+      <img src="https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon-thumbnail.png" width="120px" height="120px">
     </div>
   </td>
   <td width=50&>
