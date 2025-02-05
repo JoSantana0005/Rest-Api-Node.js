@@ -8,7 +8,7 @@ The Ultimate Fighting Championship (UFC) is an American mixed martial arts compa
       <img src="https://i.ibb.co/tL1v6Jt/html-5.png" witdh="100px" height="100px">
       <img src="https://i.ibb.co/j86Drxg/css-3.png" width= "100px" height="100px">
       <img src="https://i.ibb.co/pKKrwn3/javascript-js-icon-2048x2048-nyxvtvk0.png" width="100px" height="100px">
-      <img src="https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon-thumbnail.png" width="100px" height="100px">
+      <img src="https://banner2.cleanpng.com/20180630/bwv/kisspng-node-js-javascript-express-js-npm-mongodb-5b37b021a9a8d7.5891635115303762256949.jpg" width="100px" height="100px">
     </div>
   </td>
   <td width=50&>
