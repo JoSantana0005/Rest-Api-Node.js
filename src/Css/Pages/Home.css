@@ -15,7 +15,7 @@ main section article{
     border: 1px solid #000;
 }
 main .Content--Info article:nth-child(1){
-    width: 60%;
+    width: 55%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -29,6 +29,7 @@ main .Content--Info article:nth-child(1) h2{
     text-align: center;
     font-size: 2.3em;
     letter-spacing: 2px;
+    font-weight: 500;
 
 }
 main .Content--Info article:nth-child(1) p{
@@ -41,7 +42,8 @@ main .Content--Info article:nth-child(1) p::first-letter{
     color: #D20A0A;
 }
 main .Content--Info article:nth-child(2){
-    width: 40%;
+    width: 45%;
+    border-left: 2px solid #ddaa00;
 }
 main .Content--Info article:nth-child(2) img{
     width: 100%;
@@ -54,10 +56,12 @@ main .Content--Category{
     border: 1px solid #000;
     height: 90vh;
     display: flex;
+    border-top: 2px solid #ddaa00;
 
 }
 main .Content--Category article:nth-child(1){
     width: 55%;
+    border-bottom: 2px solid #ddaa00;
 }
 main .Content--Category article:nth-child(1) img{
     width: 100%;
@@ -101,4 +105,40 @@ main .Content--Category article:nth-child(2) ul li{
 }
 main .Content--Category article:nth-child(2) ul li::first-letter{
     color: #D20A0A;
+}
+
+main .Content--Fighter{
+    border: 1px solid #000;
+    height: 90vh;
+    display: flex;
+}
+main .Content--Fighter article:nth-child(1){
+    width: 55%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: linear-gradient(to right, #000, #300) ;
+    color: #eee;
+}
+main .Content--Fighter article:nth-child(1) h2{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+main .Content--Fighter article:nth-child(1) p{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+main .Content--Fighter article:nth-child(2){
+    width: 45%;
+    border-left: 2px solid #ddaa00;
+}
+main .Content--Fighter article:nth-child(2) img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

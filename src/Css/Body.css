@@ -6,3 +6,10 @@
 body{
     background: linear-gradient(to left, #eee, #fff);
 }
+::-webkit-scrollbar{
+    width: 7px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
