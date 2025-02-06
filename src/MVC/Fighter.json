@@ -10,7 +10,7 @@
         "championship": ["UFC Welterweight Champion", "UFC Middleweight Champion"],
         "champion": false,
         "plot": "Georges St-Pierre is a Canadian former professional mixed martial artist. He is widely regarded as one of the greatest fighters in mixed martial arts history. St-Pierre was a two-division champion in the Ultimate Fighting Championship (UFC), having won titles in the welterweight and middleweight divisions. St-Pierre is a three-time former UFC Welterweight Champion, having won the title twice and the interim title once between November 2006 and April 2008. St-Pierre was ranked as the #1 welterweight in the world for several years by Sherdog and numerous other publications. In 2008, 2009, and 2010 he was named the Canadian Athlete of the Year by Rogers Sportsnet.",
-        "Poster": ""
+        "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ27FsMK-dzexgLi0kKBYix74a-vh4perf0sQ&s"
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@
         "championship": ["UFC Middleweight Champion"],
         "champion": false,
         "plot": "Anderson da Silva is a Brazilian-American mixed martial artist. He is a former UFC Middleweight Champion and holds the record for the longest title reign in UFC history at 2,457 days. This started in 2006 and ended in 2013 and included a UFC record 16 consecutive victories in that span. UFC president Dana White and other publications have called Silva the greatest mixed martial artist of all time. Silva is ranked as the #15 Middleweight in the world by Sherdog. He is also the #4 Middleweight in the world by Fight Matrix. Silva is also ranked the #4 Middleweight in the world by MMA Weekly.",
-        "Poster": ""
+        "Poster": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20131219063404_anderson_silva.JPG"
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
         "championship": ["UFC Light Heavyweight Champion"],
         "champion": true,
         "plot": "Jonathan Dwight Jones is an American professional mixed martial artist and former UFC Light Heavyweight Champion. He is widely regarded as one of the greatest mixed martial artists of all time. As of October 26, 2020, he is #2 in",
-        "Poster": ""
+        "Poster": "https://dmxg5wxfqgb4u.cloudfront.net/styles/card_advance_small_280x356/s3/2024-11/11182024-jon-jones-UFC-309-GettyImages-2185190054.jpeg?itok=L4lKxfU7"
     },
     {
         "id": 4,
@@ -49,7 +49,7 @@
         "championship": ["UFC Lightweight Champion"],
         "champion": false,
         "plot": "Khabib Abdulmanapovich Nurmagomedov is a retired Russian professional mixed martial artist. He is widely regarded as one of the greatest fighters in mixed martial arts (MMA) history. He is a two-time Combat Sambo World Champion and holds a black belt in Judo. A two-time Combat Sambo World Champion, Nurmagomedov is also a Judo black belt and a two-time World Sambo Champion. He currently holds the longest undefeated streak in MMA, with 29 wins, and is a former UFC Lightweight Champion. He is the first Muslim to win a UFC title.",
-        "Poster": ""
+        "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzOMtCVKaNL-RLY-wbMNLUvYKg7jUxA1Co3b3f8EGbpRw4WkId6aw01X3FWRFh_yLH0sw&usqp=CAU"
     },
     {
         "id": 5,
@@ -62,7 +62,7 @@
         "championship": ["UFC Featherweight Champion", "UFC Lightweight Champion"],
         "champion": false,
         "plot": "Conor Anthony McGregor is an Irish professional mixed martial artist and boxer. He is a former Ultimate Fighting Championship (UFC) featherweight and lightweight double-champion. As of 23 November 2020, he is #13 in the",
-        "Poster": ""
+        "Poster": "https://akns-images.eonline.com/eol_images/Entire_Site/2019226/rs_600x600-190326044524-600-Conor-McGregor-LT-032619-GettyImages-1047272848.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top"
     },
     {
         "id": 6,
@@ -75,7 +75,7 @@
         "championship": ["UFC Light Heavyweight Champion", "UFC Heavyweight Champion"],
         "champion": false,
         "plot": "Daniel Ryan Cormier is an American retired professional mixed martial artist and amateur wrestler. He is a former UFC Light Heavyweight and Heavyweight Champion. Cormier is the second fighter in UFC history to hold titles in two weight classes simultaneously and is the first to defend titles in two different divisions. He is also the King of the Cage Heavyweight Champion. Cormier is ranked as the #9 pound-for-pound fighter of all-time by Sherdog. He is also ranked the #2 Light Heavyweight in the world by Sherdog. Cormier is also ranked the #2 Light Heavyweight in the world by Fight Matrix.",
-        "Poster": ""
+        "Poster": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20220325094318_Daniel_Cormier_ff.JPG"
     },
     {
         "id": 7,
@@ -88,7 +88,7 @@
         "championship": ["UFC Flyweight Champion"],
         "champion": false,
         "plot": "Demetrious Khrisna Johnson is an American retired mixed martial artist. He is widely regarded as one of the greatest mixed martial artists of all time. He is a former UFC Flyweight Champion and currently competes in ONE Championship. He is the inaugural and former Flyweight Champion of the UFC and currently competes in ONE Championship. Johnson is the #1 Flyweight in the world by Sherdog. He is also ranked the #1 Flyweight in the world by Fight Matrix. Johnson is also ranked the #1 Flyweight in the world by MMA Weekly.",
-        "Poster": ""
+        "Poster": "https://i.pinimg.com/736x/15/be/30/15be30eeccb89687010fad67c090484a.jpg"
     },
     {
         "id": 8,
@@ -101,7 +101,7 @@
         "championship": [""],
         "champion": false,
         "plot": "Amanda Lourenço Nunes is a Brazilian professional mixed martial artist. She currently competes in the Ultimate Fighting Championship (UFC), in which she is the reigning champion",
-        "Poster": ""
+        "Poster": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20220325084108_Amanda_Nunes_ff.JPG"
     },
     {
         "id": 9,
@@ -114,7 +114,7 @@
         "championship": ["UFC Featherweight Champion"],
         "champion": false,
         "plot": "Alexander Volkanovski is an Australian mixed martial artist. He is a former Australian Fighting Championship (AFC) Featherweight Champion and currently competes in the Ultimate Fighting Championship (UFC), where he is the reigning UFC Featherweight Champion. As of 23 November 2020, he",
-        "Poster": ""
+        "Poster": "https://i.pinimg.com/474x/ff/dd/17/ffdd17b138f556606171ceaf19b36b7f.jpg"
     },
     {
         "id": 10,
@@ -127,6 +127,32 @@
         "champion": false,
         "country": "USA",
         "plot": "Quinton Ramone Jackson is an American retired mixed martial artist, professional wrestler and actor. He is a former UFC Light Heavyweight Champion. Jackson rose to prominence in Japan's Pride Fighting Championships where he was noted for his powerful body sl",
-        "Poster": ""
+        "Poster": "https://chrisvanvliet.com/wp-content/uploads/2023/02/rampage-jackson-1024x1024.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Shogun Rua",
+        "nickname": "Shogun",
+        "weight": ["Light Heavyweight"],
+        "record": "27-12-1",
+        "edad": 38,
+        "country": "Brazil",
+        "championship": ["UFC Light Heavyweight Champion"],
+        "champion": false,
+        "plot": "Maurício Milani Rua is a Brazilian mixed martial artist and former UFC Light Heavyweight Champion. A professional competitor since 2002, Rua is a former UFC Light Heavyweight Champion and the 2005 Pride Middleweight Grand Prix Champion. As of 23 November 2020, he is #14 in the UFC Light Heavyweight rankings.",
+        "Poster": "https://dmxg5wxfqgb4u.cloudfront.net/styles/inline/s3/2019-11/Shogun-Rua-Adelaide-2019.jpg?VersionId=Gi.hVK5F.gWMygBZ6YOWf8PDzET10WXP&itok=tCHo1e92"
+    },
+    {
+        "id": 12,
+        "name": "Jose Aldo",
+        "nickname": "Junior",
+        "weight": ["Featherweight", "Bantamweight"],
+        "record": "29-7-0",
+        "edad": 34,
+        "country": "Brazil",
+        "championship": ["UFC Featherweight Champion"],
+        "champion": false,
+        "plot": "José Aldo da Silva Oliveira Júnior is a Brazilian professional mixed martial artist. He currently competes in the Ultimate Fighting Championship (UFC). He was the fourth and final WEC Featherweight Champion, becoming the first UFC Featherweight Champion after the UFC/WEC merger. He is a former three-time UFC Featherweight Champion overall, having been the champion twice before losing the title in 2015 and once more in 2019. As of 23 November 2020, he is #6 in the UFC Bantamweight rankings.",
+        "Poster": "https://i.pinimg.com/736x/14/29/5d/14295d242ad37826ffa7fe5d881bdec9.jpg"
     }
 ]
