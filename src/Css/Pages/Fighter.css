@@ -2,8 +2,7 @@ main{
     border: 1px solid #000;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    
 }
 main .Info--Fighter{
     border: 1px solid #000;
@@ -96,4 +95,137 @@ main .Fighter article:nth-child(2) div h4{
     font-size: 1.3em;
     letter-spacing: 2px;
     font-weight: 500;
+}
+dialog{
+    width: 75%;
+    height: 70%;
+    margin: auto;
+    outline: none;
+    z-index: 1;
+    box-shadow: 0 0 5px #000;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to top, #300, #000);
+    color: #eee;
+}
+dialog[open]{
+    animation: openModal 0.7s forwards;
+}
+/* Animación para abrir el modal */
+@keyframes openModal {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+dialog .Content--Modal{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    height: 100%;
+}
+dialog .Content--Modal article:nth-child(1){
+    width: 60%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+dialog .Content--Modal article:nth-child(1) .Container--1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+dialog .Content--Modal article:nth-child(1) .Container--1 h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+dialog .Content--Modal article:nth-child(1) .Container--1 p{
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+dialog .Content--Modal article:nth-child(1) .Container--1 p::first-letter{
+    font-size: 1.5em;
+    color: #ddaa00;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Info--Fighter div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Info--Fighter div h4{
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Info--Fighter div p{
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #ddaa00;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Info--categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Info--categories h4{
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Info--categories p{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #ddaa00;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Salir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Salir button{
+    width: 50%;
+    padding: 1px 12px;
+    border-radius: 5px;
+    background: #000;
+    color: #eee;
+    outline: none;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .1s linear;
+}
+dialog .Content--Modal article:nth-child(1) .Container--2 .Salir button:hover{
+    border: 2px solid #000;
+    background: #ddaa00;
+    color: #000;
+}
+dialog .Content--Modal article:nth-child(2){
+    width: 40%;
+    height: 100%;
+    padding: 3px;
+}
+dialog .Content--Modal article:nth-child(2) img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
