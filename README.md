@@ -12,6 +12,6 @@ The Ultimate Fighting Championship (UFC) is an American mixed martial arts compa
     </div>
   </td>
   <td width=50&>
-    <img src="https://media1.giphy.com/media/TElVR7Kr6J4kRobiBY/giphy.gif?cid=6c09b952b7zi25s5x0n6z36wqx455q8f2dfzk6fu3mf424gv&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width=100% height= 40%>
+    <img src="https://media1.giphy.com/media/TElVR7Kr6J4kRobiBY/giphy.gif?cid=6c09b952b7zi25s5x0n6z36wqx455q8f2dfzk6fu3mf424gv&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width=100% height= 100%>
   </td>
 </table>
