@@ -6,7 +6,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: #D20A0A;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1;
     box-shadow: 2px 2px 5px #000;

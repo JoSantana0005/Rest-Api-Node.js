@@ -1,0 +1,104 @@
+main{
+    border: 1px solid #000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .Content--Info{
+    border: 1px solid #000;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+main section article{
+    border: 1px solid #000;
+}
+main .Content--Info article:nth-child(1){
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    color: #eee;
+    background: linear-gradient(to right, #000, #300);
+}
+main .Content--Info article:nth-child(1) h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2.3em;
+    letter-spacing: 2px;
+
+}
+main .Content--Info article:nth-child(1) p{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    
+}
+main .Content--Info article:nth-child(1) p::first-letter{
+    font-size: 1.4em;
+    color: #D20A0A;
+}
+main .Content--Info article:nth-child(2){
+    width: 40%;
+}
+main .Content--Info article:nth-child(2) img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+main .Content--Category{
+    width: 100%;
+    border: 1px solid #000;
+    height: 90vh;
+    display: flex;
+
+}
+main .Content--Category article:nth-child(1){
+    width: 55%;
+}
+main .Content--Category article:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main .Content--Category article:nth-child(2){
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(to left, #000, #300);
+    color: #eee;
+}
+main .Content--Category article:nth-child(2) h2{
+    font-size: 1.9em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Content--Category article:nth-child(2) p{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+main .Content--Category article:nth-child(2) p::first-letter{
+    font-size: 1.4em;
+    color: #D20A0A;
+}
+main .Content--Category article:nth-child(2) ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+main .Content--Category article:nth-child(2) ul li{
+    margin: 10px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+main .Content--Category article:nth-child(2) ul li::first-letter{
+    color: #D20A0A;
+}
