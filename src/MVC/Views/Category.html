@@ -58,15 +58,15 @@
                     the fighters in this category weigh between 56.7 kg and 52.2 kg.
                 </p>
             </article>
-            <article class="List--Flyweight">
+            <article class="Content--Right">
                 <div>
                     <h3>Flyweight Fighter</h3>
                     <div>
 
                     </div>
                 </div>
-                <div class="List">
-                    <div>
+                <div class="List--Flyweight">
+                    <div class="List">
                         <img src="" alt="Imagen">
                         <h4>Jose Aldo</h4>
                     </div>
@@ -80,7 +80,7 @@
                     <div></div>
                 </div>
                 <div class="List--Bantamweight">
-                    <div>
+                    <div class="List">
                         <img src="" alt="Imagen">
                         <h4>Jose Aldo</h4>
                     </div>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 <div class="List--Feartherweight">
-                    <div>
+                    <div class="List">
                         <img src="" alt="Imagen">
                         <h4>Jose Aldo</h4>
                     </div>
@@ -126,16 +126,22 @@
                     </div>
                 </div>
                 <div class="List--Lightweight">
-                    <div>
+                    <div class="List">
                         <img src="" alt="Imagen">
                         <h4>Jose Aldo</h4>
                     </div>
                 </div>
             </article>
-            <article class=""></article>
+            <article class="Content--Right">
+                <h3>Lightweight</h3>
+                <p>
+                    The lightweight category is the fourth lightest category in the UFC, 
+                    the fighters in this category weigh between 70.3 kg and 65.8 kg.
+                </p>
+            </article>
         </section>
         <section class="Info--WelterWeight">
-            <article class="">
+            <article class="Content--Left">
                 <div>
                     <h3>Welterweight Fighter</h3>
                     <div>
@@ -143,7 +149,7 @@
                     </div>
                 </div>
                 <div class="List--Welterweight">
-                    <div>
+                    <div class="List">
                         <img src="" alt="Imagen">
                         <h4>Jose Aldo</h4>
                     </div>
@@ -165,15 +171,15 @@
                     the fighters in this category weigh between 83.9 kg and 77.1 kg.
                 </p>
             </article>
-            <article class="List--Middleweight">
+            <article class="Info--Middleweight">
                 <div>
                     <h3>Middleweight Fighter</h3>
                     <div>
 
                     </div>
                 </div>
-                <div class="List">
-                    <div>
+                <div class="List--Middleweight">
+                    <div class="List">
                         <img src="" alt="Imagen">
                         <h4>Jose Aldo</h4>
                     </div>
@@ -189,7 +195,7 @@
                     </div>
                 </div>
                 <div class="List--SemiMediumWeight">
-                    <div>
+                    <div class="List">
                         <img src="" alt="Imagen">
                         <h4>Jose Aldo</h4>
                     </div>
@@ -218,8 +224,8 @@
 
                     </div>
                 </div>
-                <div class="List">
-                    <div>
+                <div class="List--Heavyweight">
+                    <div class="List">
                         <img src="" alt="Imagen">
                         <h4>Jose Aldo</h4>
                     </div>
@@ -227,6 +233,44 @@
             </article>
         </section>
     </main>
+    <dialog id="Ventana--Modal" >
+        <article class="Content--Modal">
+            <article class="Content--Right">
+                <div class="Container--1">
+                    <h3 id="Title"></h3>
+                    <p id="Plot"></p>
+                </div>
+                <div class="Container--2">
+                    <div class="Info--Fighter">
+                        <div>
+                            <h4>Age:</h4>
+                            <p id="Age"></p>
+                        </div>
+                        <div>
+                            <h4>Record:</h4>
+                            <p id="Record"></p>
+                        </div>
+                    </div>
+                    <div class="Info--categories">
+                        <div>
+                            <h4>Championship:</h4>
+                            <p id="Championship"></p>
+                        </div>
+                        <div>
+                            <h4>Division:</h4>
+                            <p id="Weight"></p>
+                        </div>
+                    </div>
+                    <div class="Salir">
+                        <button id="Close">Close Modal</button>
+                    </div>
+                </div>
+            </article>
+            <article class="Content--Left">
+                <img id="Imagen--Fighter" src="" alt="Imagen--Fighter">
+            </article>
+        </article>
+    </dialog>
 </body>
 <script src="../../Js/Category.js"></script>
 </html>
