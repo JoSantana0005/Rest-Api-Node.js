@@ -28,7 +28,7 @@ function Info__Fighter(IndexFighter){
 }
 
 // Funcion que llama a la API
-export async function ObtenerCategory(category,list){
+async function ObtenerCategory(category,list){
     try{
         const respuesta = await fetch(`http://localhost:2500/Fighter?weight=${category}`);
         if(respuesta.status == 200){
@@ -82,7 +82,7 @@ Search__Fighter.addEventListener('input',(e)=>{
         ObtenerCategory('Lightweight',List__Lightweight);
         ObtenerCategory('Welterweight',List__Welterweight);
         ObtenerCategory('Middleweight',List__Middleweight);
-        ObtenerCategory('LightHeavyweight',List__LightHeavyweight);
+        ObtenerCategory('Light Heavyweight',List__LightHeavyweight);
         ObtenerCategory('Heavyweight',List__Heavyweight);
     }else{
         document.getElementsByClassName('List--Flyweight')[0].innerHTML = '';

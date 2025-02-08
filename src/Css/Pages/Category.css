@@ -1,0 +1,768 @@
+main{
+    width: 100%;
+    height: 100%;
+    border: 1px solid  #000;
+}
+main .Info--Categories{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+main .Info--Categories .Content--Left{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: linear-gradient(to left, #000,#300);
+    color: #eee;
+    border-left: 2px solid #ddaa00;
+}
+main .Info--Categories .Content--Left h2{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Categories .Content--Left p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--Categories .Content--Left ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+}
+main .Info--Categories .Content--Left ul li{
+    margin: 10px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+main .Info--Categories .Content--Left ul li::first-letter{
+    color: #D20A0A;
+}
+main .Info--Categories .Content--Right{
+    width: 60%;
+}
+main .Info--Categories .Content--Right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Info--Flyweight*/
+main .Info--Flyweight{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, #000, #300);
+    color: #eee;
+    border-bottom: 2px solid #ddaa00;
+}
+main .Info--Flyweight article{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Info--Flyweight .Content--Left{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-right: 2px solid #ddaa00;
+}
+main .Info--Flyweight .Content--Left h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Flyweight .Content--Left p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--Flyweight .Content--Right .Title--Flyweight{
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Info--Flyweight .Content--Right .Title--Flyweight h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Flyweight .Content--Right .List--Flyweight{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Info--Flyweight .Content--Right .List--Flyweight::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+main .Info--Flyweight .Content--Right .List--Flyweight::-webkit-scrollbar-thumb{
+    background: #700;
+    border-radius: 5px;
+}
+main .Info--Flyweight .Content--Right .List--Flyweight div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+main .Info--Flyweight .Content--Right .List--Flyweight div img{
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow:0 0 5px #600;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Info--Flyweight .Content--Right .List--Flyweight div img:hover{
+    padding: 2px;
+    box-shadow: 0 0 5px #ddaa00;
+}
+main .Info--Flyweight .Content--Right .List--Flyweight div h4{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/*Info--Bantamweight*/
+
+main .Info--Bantamweight{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, #000, #300);
+    border-bottom: 2px solid #ddaa00;
+    color: #eee;
+}
+main .Info--Bantamweight article{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Info--Bantamweight .Content--Right{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-left: 2px solid #ddaa00;
+}
+main .Info--Bantamweight .Content--Right h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Bantamweight .Content--Right p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--Bantamweight .Content--Left .Title--Bantamweight{
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Info--Bantamweight .Content--Left .Title--Bantamweight h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Bantamweight .Content--Left .List--Bantamweight{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Info--Bantamweight .Content--Left .List--Bantamweight::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+main .Info--Bantamweight .Content--Left .List--Bantamweight::-webkit-scrollbar-thumb{
+    background: #700;
+    border-radius: 5px;
+}
+main .Info--Bantamweight .Content--Left .List--Bantamweight div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+main .Info--Bantamweight .Content--Left .List--Bantamweight div img{
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow:0 0 5px #600;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Info--Bantamweight .Content--Left .List--Bantamweight div img:hover{
+    padding: 2px;
+    box-shadow: 0 0 5px #ddaa00;
+}
+main .Info--Bantamweight .Content--Left .List--Bantamweight div h4{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+/*Info--Feartherweight*/
+main .Info--Feartherweight{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, #000, #300);
+    color: #eee;
+    border-bottom: 2px solid #ddaa00;
+}
+main .Info--Feartherweight article{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Info--Feartherweight .Content--Left{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-right: 2px solid #ddaa00;
+}
+main .Info--Feartherweight .Content--Left h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Feartherweight .Content--Left p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--Feartherweight .Content--Right .Title--Feartherweight{
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Info--Feartherweight .Content--Right .Title--Feartherweight h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Feartherweight .Content--Right .List--Feartherweight{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Info--Feartherweight .Content--Right .List--Feartherweight::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+main .Info--Feartherweight .Content--Right .List--Feartherweight::-webkit-scrollbar-thumb{
+    background: #700;
+    border-radius: 5px;
+}
+main .Info--Feartherweight .Content--Right .List--Feartherweight div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+main .Info--Feartherweight .Content--Right .List--Feartherweight div img{
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow:0 0 5px #600;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Info--Feartherweight .Content--Right .List--Feartherweight div img:hover{
+    padding: 2px;
+    box-shadow: 0 0 5px #ddaa00;
+}
+main .Info--Feartherweight .Content--Right .List--Feartherweight div h4{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+/*Info--Lightweight*/
+main .Info--Lightweight{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, #000, #300);
+    border-bottom: 2px solid #ddaa00;
+    color: #eee;
+}
+main .Info--Lightweight article{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Info--Lightweight .Content--Right{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-left: 2px solid #ddaa00;
+}
+main .Info--Lightweight .Content--Right h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Lightweight .Content--Right p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--Lightweight .Content--Left .Title--Lightweight{
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Info--Lightweight .Content--Left .Title--Lightweight h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Lightweight .Content--Left .List--Lightweight{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Info--Lightweight .Content--Left .List--Lightweight::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+main .Info--Lightweight .Content--Left .List--Lightweight::-webkit-scrollbar-thumb{
+    background: #700;
+    border-radius: 5px;
+}
+main .Info--Lightweight .Content--Left .List--Lightweight div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+main .Info--Lightweight .Content--Left .List--Lightweight div img{
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow:0 0 5px #600;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Info--Lightweight .Content--Left .List--Lightweight div img:hover{
+    padding: 2px;
+    box-shadow: 0 0 5px #ddaa00;
+}
+main .Info--Lightweight .Content--Left .List--Lightweight div h4{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+/*Info--WelterWeight*/
+main .Info--WelterWeight{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, #000, #300);
+    border-bottom: 2px solid #ddaa00;
+    color: #eee;
+}
+main .Info--WelterWeight article{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Info--WelterWeight .Content--Right{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-left: 2px solid #ddaa00;
+}
+main .Info--WelterWeight .Content--Right h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--WelterWeight .Content--Right p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--WelterWeight .Content--Left .Title--Welterweight{
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Info--WelterWeight .Content--Left .Title--Welterweight h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--WelterWeight .Content--Left .List--Welterweight{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Info--WelterWeight .Content--Left .List--Welterweight::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+main .Info--WelterWeight .Content--Left .List--Welterweight::-webkit-scrollbar-thumb{
+    background: #700;
+    border-radius: 5px;
+}
+main .Info--WelterWeight .Content--Left .List--Welterweight div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+main .Info--WelterWeight .Content--Left .List--Welterweight div img{
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow:0 0 5px #600;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Info--WelterWeight .Content--Left .List--Welterweight div img:hover{
+    padding: 2px;
+    box-shadow: 0 0 5px #ddaa00;
+}
+main .Info--WelterWeight .Content--Left .List--Welterweight div h4{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+/*Info--Middleweight*/
+main .Info--Middleweight{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, #000, #300);
+    color: #eee;
+    border-bottom: 2px solid #ddaa00;
+}
+main .Info--Middleweight article{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Info--Middleweight .Content--Left{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-right: 2px solid #ddaa00;
+}
+main .Info--Middleweight .Content--Left h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Middleweight .Content--Left p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--Middleweight .Content--Right .Title--Middleweight{
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Info--Middleweight .Content--Right .Title--Middleweight h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--Middleweight .Content--Right .List--Middleweight{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Info--Middleweight .Content--Right .List--Middleweight::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+main .Info--Middleweight .Content--Right .List--Middleweight::-webkit-scrollbar-thumb{
+    background: #700;
+    border-radius: 5px;
+}
+main .Info--Middleweight .Content--Right .List--Middleweight div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+main .Info--Middleweight .Content--Right .List--Middleweight div img{
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow:0 0 5px #600;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Info--Middleweight .Content--Right .List--Middleweight div img:hover{
+    padding: 2px;
+    box-shadow: 0 0 5px #ddaa00;
+}
+main .Info--Middleweight .Content--Right .List--Middleweight div h4{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+/*Info--SemiMediumWeight*/
+main .Info--SemiMediumWeight{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, #000, #300);
+    border-bottom: 2px solid #ddaa00;
+    color: #eee;
+}
+main .Info--SemiMediumWeight article{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Info--SemiMediumWeight .Content--Right{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-left: 2px solid #ddaa00;
+}
+main .Info--SemiMediumWeight .Content--Right h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--SemiMediumWeight .Content--Right p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--SemiMediumWeight .Content--Left .Title--SemiMediumWeight{
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Info--SemiMediumWeight .Content--Left .Title--SemiMediumWeight h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--SemiMediumWeight .Content--Left .List--SemiMediumWeight{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Info--SemiMediumWeight .Content--Left .List--SemiMediumWeight::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+main .Info--SemiMediumWeight .Content--Left .List--SemiMediumWeight::-webkit-scrollbar-thumb{
+    background: #700;
+    border-radius: 5px;
+}
+main .Info--SemiMediumWeight .Content--Left .List--SemiMediumWeight div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+main .Info--SemiMediumWeight .Content--Left .List--SemiMediumWeight div img{
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow:0 0 5px #600;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Info--SemiMediumWeight .Content--Left .List--SemiMediumWeight div img:hover{
+    padding: 2px;
+    box-shadow: 0 0 5px #ddaa00;
+}
+main .Info--SemiMediumWeight .Content--Left .List--SemiMediumWeight div h4{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+/*Info--HeavyWeight*/
+main .Info--HeavyWeight{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, #000, #300);
+    color: #eee;
+}
+main .Info--HeavyWeight article{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Info--HeavyWeight .Content--Left{
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-right: 2px solid #ddaa00;
+}
+main .Info--HeavyWeight .Content--Left h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--HeavyWeight .Content--Left p{
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+main .Info--HeavyWeight .Content--Right .Title--Heavyweight{
+    border-bottom: 1px solid #eee;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Info--HeavyWeight .Content--Right .Title--Heavyweight h3{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main .Info--HeavyWeight .Content--Right .List--Heavyweight{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Info--HeavyWeight .Content--Right .List--Heavyweight::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+main .Info--HeavyWeight .Content--Right .List--Heavyweight::-webkit-scrollbar-thumb{
+    background: #700;
+    border-radius: 5px;
+}
+main .Info--HeavyWeight .Content--Right .List--Heavyweight div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+main .Info--HeavyWeight .Content--Right .List--Heavyweight div img{
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow:0 0 5px #600;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Info--HeavyWeight .Content--Right .List--Heavyweight div img:hover{
+    padding: 2px;
+    box-shadow: 0 0 5px #ddaa00;
+}
+main .Info--HeavyWeight .Content--Right .List--Heavyweight div h4{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
