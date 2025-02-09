@@ -143,6 +143,11 @@ main .Info--Flyweight .Content--Right .List--Flyweight div h4{
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
 }
 
 /*Info--Bantamweight*/
@@ -236,6 +241,11 @@ main .Info--Bantamweight .Content--Left .List--Bantamweight div h4{
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
 }
 /*Info--Feartherweight*/
 main .Info--Feartherweight{
@@ -327,6 +337,11 @@ main .Info--Feartherweight .Content--Right .List--Featherweight div h4{
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
 }
 /*Info--Lightweight*/
 main .Info--Lightweight{
@@ -418,6 +433,11 @@ main .Info--Lightweight .Content--Left .List--Lightweight div h4{
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
 }
 /*Info--WelterWeight*/
 main .Info--WelterWeight{
@@ -509,6 +529,11 @@ main .Info--WelterWeight .Content--Left .List--Welterweight div h4{
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
 }
 /*Info--Middleweight*/
 main .Info--Middleweight{
@@ -600,6 +625,11 @@ main .Info--Middleweight .Content--Right .List--Middleweight div h4{
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
 }
 /*Info--SemiMediumWeight*/
 main .Info--SemiMediumWeight{
@@ -692,6 +722,11 @@ main .Info--SemiMediumWeight .Content--Left .List--Light div h4{
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
 }
 /*Info--HeavyWeight*/
 main .Info--HeavyWeight{
@@ -783,6 +818,11 @@ main .Info--HeavyWeight .Content--Right .List--Heavyweight div h4{
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 150px;
 }
 dialog{
     width: 75%;
