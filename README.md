@@ -5,7 +5,7 @@ The UFC stands for the Ultimate Fighting Championship, and is an organization of
 <table>
   <td width=45%>
     In this project, a UFC API was created, which is consumed on the page, in this API we can see the record of the fighters, championships won, a small description of each, etc.
-    <div>
+    <div align="center">
       <img src="https://i.ibb.co/tL1v6Jt/html-5.png" witdh="100px" height="100px">
       <img src="https://i.ibb.co/j86Drxg/css-3.png" witdh="100px" height="100px">
       <img src="https://i.ibb.co/pKKrwn3/javascript-js-icon-2048x2048-nyxvtvk0.png" witdh="100px" height="100px">
